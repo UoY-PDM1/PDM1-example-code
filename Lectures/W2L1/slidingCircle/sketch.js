@@ -1,7 +1,7 @@
 let x = 0; // The value of x needs to be "remembered" from frame to frame
 
 function setup() {
-    createCanvas(400, 300);
+    createCanvas(400, 500);
 }
 
 function draw() {

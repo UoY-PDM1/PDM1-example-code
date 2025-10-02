@@ -13,7 +13,7 @@ function draw() {
     background(0);
     fill(r, g, b);
     circle(width / 2, height / 2, width * 0.8);
-    r++;
+    r++; // r = r + 1;
     r %= 255;
     g++;
     g %= 255;
