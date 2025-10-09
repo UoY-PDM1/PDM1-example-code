@@ -7,5 +7,5 @@ function draw() {
     console.log("mouseX:", mouseX, "constrained value:", bgColour);
     bgColour = bgColour / width * 255;
     background(bgColour);
-    // console.log(bgColour);
+    console.log(bgColour);
 }

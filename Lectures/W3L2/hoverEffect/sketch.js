@@ -47,5 +47,5 @@ function mouseIsOver(x, y, squareWidth) {
     }
     /* The whole conditional could be shortened to
      * return mouseX >= x && mouseX <= x + squareWidth && mouseY >= y && mouseY <= y + squareWidth;
-     */
+    */
 }
