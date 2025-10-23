@@ -2,7 +2,7 @@ let xCoordinates = [20, 20, 20, 20];
 let speeds = [1, 2, 3, 4];
 
 function setup() {
-    createCanvas(400, 250);
+    createCanvas(400, 300);
 }
 
 function draw() {
