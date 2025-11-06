@@ -14,7 +14,7 @@ function draw() {
     textFont(computer);
     textSize(24);
     textAlign(CENTER, CENTER);
-    text("Wrap this text over two lines", 100, 100, 400, 200);
+    text("Wrap this text over two lines", 50, 100, 500, 200);
 }
 
 

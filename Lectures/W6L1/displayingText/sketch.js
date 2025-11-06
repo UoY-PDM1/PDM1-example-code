@@ -1,4 +1,5 @@
-let typewriter, computer
+let typewriter;
+let computer;
 
 function preload() {
     typewriter = loadFont("assets/Typewriter-LAYy.ttf");
@@ -20,4 +21,5 @@ function draw() {
     textFont(computer);
     fill(0, 255, 100);
     text("Hello, Mouse!", mouseX, mouseY);
+
 }
