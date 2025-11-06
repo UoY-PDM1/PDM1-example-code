@@ -52,15 +52,17 @@ function setup() {
 
 function draw() {
     background(255);
-    for (let ball of balls) {
-        ball.draw();
-        ball.move();
+    for (let i = 0; i < balls.length; i++) {
+        balls[i].draw();
+        balls[i].move();
     }
+
+    // for (let ball of balls) {
+    //     ball.draw();
+    //     ball.move();
+    // }
 }
 
 function mouseClicked() {
     balls.push(new Ball(mouseX, mouseY, random(-5, 5), random(-5, 5)));
 }
-
-
-

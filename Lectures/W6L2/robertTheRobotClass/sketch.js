@@ -4,7 +4,7 @@ let robert;
 
 function setup() {
     createCanvas(800, 800);
-    robert = new Robot(random(width), random(height), color(random(255), random(255), random(255)));
+    robert = new Robot(width / 2, height / 2, color(255, 0, 0));
 }
 
 function draw() {
