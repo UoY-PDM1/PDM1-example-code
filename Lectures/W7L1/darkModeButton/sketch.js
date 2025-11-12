@@ -1,4 +1,5 @@
-let darkMode, lightMode;
+let darkMode;
+let lightMode;
 const msg = "The quick brown fox jumps over the lazy dog.";
 
 // Variables related to the button
