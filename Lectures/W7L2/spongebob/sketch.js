@@ -1,4 +1,5 @@
-let bg, sponge;
+let bg;
+let sponge;
 
 function preload() {
     bg = loadImage("assets/background.jpg");
@@ -11,12 +12,13 @@ function setup() {
 }
 
 function draw() {
+    //background(255);
     image(bg, width / 2, height / 2);
     image(sponge, mouseX, mouseY);
 }
 
-function keyPressed() { 
+function keyPressed() {
     if (key === "s") {
-        saveCanvas("mySpongebob.jpg");
+        saveCanvas("spongebob.jpg");
     }
 }
