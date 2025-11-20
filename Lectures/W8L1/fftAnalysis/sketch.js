@@ -12,9 +12,10 @@ function setup() {
 function draw() {
     background(0);
     let spectrum = fft.analyze();
+    //console.log(spectrum);
     let x = (width - spectrum.length) / 2;
     for (let bin of spectrum) {
-        stroke(bin, 0, bin);
+        stroke(255, 0, 255);
         let fftScaled = (bin / 255) * (height / 2);
         line(x, (height / 2) - fftScaled, x, (height / 2) + fftScaled);
         x++;
@@ -23,4 +24,5 @@ function draw() {
 
 function mouseClicked() {
     dundundun.play();
+    console.log(fft.analyze());
 }

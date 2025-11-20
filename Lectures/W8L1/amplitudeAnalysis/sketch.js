@@ -5,7 +5,7 @@ function preload() {
 }
 
 function setup() {
-    createCanvas(400, 300);
+    createCanvas(800, 300);
     rectMode(CENTER);
     amp = new p5.Amplitude();
     amp.setInput(dundundun);

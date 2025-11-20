@@ -14,4 +14,6 @@ function mouseClicked() {
     } else {
         shore.pause();
     }
+
+    background(random(255), random(255), random(255));
 }
