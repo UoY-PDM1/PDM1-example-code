@@ -1,78 +1,86 @@
 # This section should not be commented (permanently ignore)
 .DS_Store
+.vscode
+
+# To ignore previously committed files, run:
+# git rm -r --cached .
+
+
 # Lectures/W1L2/basicShapesCentre-REF
 # Lectures/W1L2/basicShapesCircles-REF
 
 # Comment folders as the semester progresses
-# Lectures/W1L1
-# Lectures/W1L2
-# Practical solutions/W1P2
+Lectures/W1L1
+Lectures/W1L2
+Practical solutions/W1P2
 
-# Lectures/W2L1
-# Practical solutions/W2P1
-# Lectures/W2L2
-# Lectures/W2L2/alternatingCircleV1
-# Lectures/W2L2/alternatingCircleV2
-# Lectures/W2L2/alternatingCircleV3
-# Practical solutions/W2P2
-# Snake/W2P2
+Lectures/W2L1
+Practical solutions/W2P1
+Lectures/W2L2
+Lectures/W2L2/alternatingCircleV1
+Lectures/W2L2/alternatingCircleV2
+Lectures/W2L2/alternatingCircleV3
+Practical solutions/W2P2
+Snake/W2P2
 
-# Lectures/W3L1
-# Practical solutions/W3P1
-# Snake/W3P1
-# Lectures/W3L2
+Lectures/W3L1
+Practical solutions/W3P1
+Snake/W3P1
+Lectures/W3L2
 Lectures/W3L2/robertTheRobotV0
 Lectures/W3L2/robertTheRobotV1
 Lectures/W3L2/robertTheRobotV2
-# Practical solutions/W3P2
-# Snake/W3P2
+Practical solutions/W3P2
+Snake/W3P2
 
-# Lectures/W4L1
-# Lectures/W4L1/halloweenV2
-# Practical solutions/W4P1
-# Snake/W4P1
-# Lectures/W4L2
-# Practical solutions/W4P2
+Lectures/W4L1
+Lectures/W4L1/halloweenV2
+Practical solutions/W4P1
+Snake/W4P1
+Lectures/W4L2
+Practical solutions/W4P2
 
-# Lectures/W5L1
-# Practical solutions/W5P1
-# Snake/W5P1
-# Lectures/W5L2
-# Practical solutions/W5P2
-# Snake/W5P2
+Lectures/W5L1
+Practical solutions/W5P1
+Snake/W5P1
+Lectures/W5L2
+Practical solutions/W5P2
+Snake/W5P2
 
-# Lectures/W6L1
-# Practical solutions/W6P1
-# Snake/W6P1
-# Lectures/W6L2
-# Practical solutions/W6P2
-# Snake/W6P2
+Lectures/W6L1
+Practical solutions/W6P1
+Snake/W6P1
+Lectures/W6L2
+Practical solutions/W6P2
+Snake/W6P2
 
-# Lectures/W7L1
-# Practical solutions/W7P1
-# Snake/W7P1
-# Lectures/W7L2
-# Lectures/W7L2/pixelLoop
-# Practical solutions/W7P2
+Lectures/W7L1
+Practical solutions/W7P1
+Snake/W7P1
+Lectures/W7L2
+Lectures/W7L2/pixelLoop
+Practical solutions/W7P2
 
-# Lectures/W8L1
-# Practical solutions/W8P1
-# Lectures/W8L2
-# Practical solutions/W8P2
+Lectures/W8L1
+Practical solutions/W8P1
+Lectures/W8L2
+Practical solutions/W8P2
 
-# Lectures/W9L1
-# Practical solutions/W9P1
-# Lectures/W9L2
+Lectures/W9L1
+Practical solutions/W9P1
+Lectures/W9L2
 Lectures/W9L2/mazeInClass
-# Lectures/W9L2/pyramid1
-# Lectures/W9L2/pyramid2
-# Lectures/W9L2/pyramid3
-# Practical solutions/W9P2
+Lectures/W9L2/pyramid1
+Lectures/W9L2/pyramid2
+Lectures/W9L2/pyramid3
+Practical solutions/W9P2
 
-# Lectures/W10L1
-#Practical solutions/W10P1
-#Lectures/W10L2
-#Practical solutions/W10P2
+Lectures/W10L1
+Practical solutions/W10P1
+Lectures/W10L2
+Practical solutions/W10P2
 
-#Lectures/W11L1
+Lectures/W11L1
+Lectures/W11L1/arrayOrNot1-ref 
+Lectures/W11L1/arrayOrNot2-ref 
 Practical solutions/W11P1
