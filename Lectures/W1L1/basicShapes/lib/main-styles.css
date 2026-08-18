@@ -4,6 +4,10 @@ body {
     padding: 5%;
 }
 
+main {
+    position: relative;
+}
+
 canvas {
   border: solid 1px rgb(0, 0, 0);
 }
