@@ -1,27 +1,14 @@
-let square1X, square1Y, square1W, square2X, square2Y, square2W, square3X, square3Y, square3W;
 
 function setup() {
     createCanvas(600, 600);
-    square1W = random(50, 200);
-    square1X = random(width - square1W);
-    square1Y = random(height - square1W);
-
-    square2W = random(50, 200);
-    square2X = random(width - square2W);
-    square2Y = random(height - square2W);
-
-    square3W = random(50, 200);
-    square3X = random(width - square3W);
-    square3Y = random(height - square3W);
-
     strokeWeight(10);
 }
 
 function draw() {
     background(0);
-    drawSquare(square1X, square1Y, square1W);
-    drawSquare(square2X, square2Y, square2W);
-    drawSquare(square3X, square3Y, square3W);
+    drawSquare(30, 40, 100);
+    drawSquare(420, 225, 150);
+    drawSquare(230, 300, 50);
 }
 
 function drawSquare(x, y, squareWidth) {
