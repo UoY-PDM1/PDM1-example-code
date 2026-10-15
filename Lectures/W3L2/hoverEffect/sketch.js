@@ -26,7 +26,10 @@ function getHighlightColour(x, y, squareWidth) {
 }
 
 function mouseIsOver(x, y, squareWidth) {
-    if (mouseX >= x && mouseX <= x + squareWidth && mouseY >= y && mouseY <= y + squareWidth) {
+    if (mouseX >= x // left edge
+        && mouseX <= x + squareWidth // right edge
+        && mouseY >= y // top edge
+        && mouseY <= y + squareWidth) { // bottom edge
         return true;
     }
     else {

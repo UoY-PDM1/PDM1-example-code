@@ -1,13 +1,29 @@
+let randomX;
+let randomY;
+let randomColor;
+let randomColor2;
+
 function setup() {
     createCanvas(800, 800);
     rectMode(CENTER);
+    randomX = random(width);
+    randomY = random(height);
+    randomColor = randomColour();
+    randomColor2 = randomColour();
 }
 
 function draw() {
-    let centreX = mouseX; // 400
-    let centreY = mouseY; // 350
     background(255);
-    fill(170);
+    robot(mouseX, mouseY, randomColor2);
+    robot(randomX, randomY, randomColor);
+}
+
+function randomColour() {
+    return color(random(255), random(255), random(255));
+}
+
+function robot(centreX, centreY, bodyColour) {
+    fill(bodyColour);
     // Head
     rect(centreX, centreY - 115, 60, 70);
     // Neck
