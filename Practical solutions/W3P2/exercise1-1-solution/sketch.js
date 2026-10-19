@@ -19,11 +19,6 @@ function draw() {
 }
 
 
-/**
- * Draws a star at the given coordinates.
- * @param {number} x The x coordinate of the star. 
- * @param {number} y The y coordinate of the star.
- */
 function star(x, y) {
     fill(255, 234, 0);
     triangle(x, y - 50, x - 20, y, x + 20, y);
