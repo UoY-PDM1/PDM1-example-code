@@ -31,15 +31,27 @@ class Ball {
     /**
      * Moves the ball.
      */
-    move() {
+    #move(xDirChange, yDirChange) {
         if (this.x < 50 || this.x > width - 50) {
-            this.speedX *= -1;
+            this.speedX *= xDirChange;
         }
         if (this.y < 50 || this.y > height - 50) {
-            this.speedY *= -1;
+            this.speedY *= yDirChange;
         }
         this.x += this.speedX;
         this.y += this.speedY;
+    }
+
+    bounce() {
+        this.#move(-1, -1);
+    }
+
+    drop() {
+        this.speedX = 0;
+        if (this.speedY < 0) {
+            this.speedY *= -1;
+        }
+        this.#move(0, 0);
     }
 }
 
@@ -57,7 +69,11 @@ function draw() {
     background(255);
     for (let i = 0; i < balls.length; i++) {
         balls[i].draw();
-        balls[i].move();
+        if (i % 2 === 0) {
+            balls[i].bounce();
+        } else {
+            balls[i].drop();
+        }
     }
 
     // for (let ball of balls) {
