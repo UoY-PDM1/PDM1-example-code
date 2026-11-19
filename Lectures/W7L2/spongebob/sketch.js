@@ -13,9 +13,3 @@ function draw() {
     image(bg, width / 2, height / 2);
     image(sponge, mouseX, mouseY);
 }
-
-function keyPressed() {
-    if (key === "s") {
-        saveCanvas("spongebob.jpg");
-    }
-}

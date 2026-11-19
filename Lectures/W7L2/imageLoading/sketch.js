@@ -2,7 +2,7 @@ let frog;
 
 async function setup() {
     frog = await loadImage("assets/frog.jpg");
-    createCanvas(frog.width, frog.height);
+    createCanvas(600, 600);
 }
 
 function draw() {
