@@ -9,7 +9,7 @@ function setup() {
     modeButton.parent(mainContainer);
     modeButton.size(100, 40);
     modeButton.position(width / 2 - 50, height - 50);
-    modeButton.mouseClicked(toggleMode);
+    modeButton.mouseClicked(toggleLightMode);
 }
 
 function draw() {
@@ -26,17 +26,10 @@ function draw() {
 }
 
 /**
- * Configures the button's position and basic styling
- */
-function buttonSetup() {
-    
-}
-
-/**
  * Event listener. Called when the button is pressed. Toggles 
  * between light and dark mode.
  */
-function toggleMode() {
+function toggleLightMode() {
     isLightMode = !isLightMode;
 }
 
